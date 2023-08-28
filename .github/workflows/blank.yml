@@ -36,8 +36,8 @@ jobs:
           echo test, and deploy your project..
   call-reusable-workflow:
     permissions:
-      cotents: write
+      contents: write
       actions: write
-    uses: UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml
+    uses: UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml@v1
     with:
       message: 'I am calling reusable workflow'
