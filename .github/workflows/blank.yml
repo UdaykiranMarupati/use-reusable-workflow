@@ -38,6 +38,6 @@ jobs:
     permissions:
       contents: write
       actions: write
-    uses: UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml@3.0
+    uses: UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml@1.0
     with:
       message: 'I am calling reusable workflow'

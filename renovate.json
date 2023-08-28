@@ -3,11 +3,11 @@
   "extends": [
     "config:base"
   ],
-  "regexManagers": [
-    {
-      "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
-      "matchStrings": ["uses: UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml@.*"],
-      "datasourceTemplate": "github-tags"
-    }
-  ]
+  "enabledManagers": ["github-actions", "github-tags"],
+  "packageRules": [
+      {
+        "packageNames": ["UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml"],
+        "schedule": ["daily"]
+      }
+      ]
 }
