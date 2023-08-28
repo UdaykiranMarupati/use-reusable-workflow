@@ -43,7 +43,7 @@
     },
     "overrides": {
       "got": "12.1.0",
-      "nwsapi": "2.2.1"
+      "nwsapi": "2.2.7"
     },
     "dependencies": {
       "body-parser": "^1.20.2",
