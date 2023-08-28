@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project..
+  call-reusable-workflow:
+    permissions:
+      cotents: write
+      actions: write
+    uses: UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml
+    with:
+      message: 'I am calling reusable workflow'
