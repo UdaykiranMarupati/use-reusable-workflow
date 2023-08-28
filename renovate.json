@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "enabledManagers": ["github-actions"],
   "regexManagers": [
     {
       "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
