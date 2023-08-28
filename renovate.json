@@ -3,11 +3,10 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": ["github-actions", "github-tags"],
+  "enabledManagers": ["github-actions"],
   "packageRules": [
       {
-        "packageNames": ["UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml"],
-        "schedule": ["daily"]
+        "packageNames": ["UdaykiranMarupati/test-reusableworkflow/.github/workflows/dev-reusable.yml"]
       }
-      ]
+    ]
 }
