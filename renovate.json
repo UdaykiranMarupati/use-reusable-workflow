@@ -7,7 +7,7 @@
     {
       "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
       "matchStrings": ["uses: (?<depName>.*?)/.github/workflows/dev-reusable.yml@(?<currentValue>.*?)\\s"],
-      "datasourceTemplate": "git-tags"
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
