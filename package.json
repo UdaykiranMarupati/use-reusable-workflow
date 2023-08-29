@@ -42,7 +42,7 @@
       "typescript": "^4.5.5"
     },
     "overrides": {
-      "got": "12.1.0",
+      "got": "13.0.0",
       "nwsapi": "2.2.1"
     },
     "dependencies": {
