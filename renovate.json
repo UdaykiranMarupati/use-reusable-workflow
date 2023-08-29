@@ -8,6 +8,9 @@
     {
       "matchPackagePatterns": ["*"],
       "enabled": false
+    }, {
+      "paths": [".github/workflows/**"],
+      "enabled": true
     }
   ],
 
