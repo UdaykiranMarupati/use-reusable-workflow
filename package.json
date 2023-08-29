@@ -28,7 +28,7 @@
       "csurf": "^1.10.0",
       "eslint": "^7.31.0",
       "express": "^4.17.3",
-      "helmet": "^5.1.1",
+      "helmet": "^7.0.0",
       "husky": "^8.0.0",
       "jest": "^29.3.1",
       "jest-watch-typeahead": "^2.2.1",
@@ -50,7 +50,7 @@
       "cookie-parser": "^1.4.6",
       "csurf": "^1.11.0",
       "express": "^4.17.3",
-      "helmet": "^5.1.1",
+      "helmet": "^7.0.0",
       "pino": "^7.9.2",
       "swagger-jsdoc": "^6.2.8",
       "swagger-ui-express": "^4.6.3"
