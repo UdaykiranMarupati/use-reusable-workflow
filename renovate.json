@@ -8,7 +8,12 @@
     {
       "matchPackagePatterns": ["*"],
       "enabled": false
-    }, {
+    }, 
+    {
+      "matchManagers": ["github-actions"],
+      "enabled": false
+    },
+    {
       "paths": [".github/workflows/**"],
       "enabled": true
     }
