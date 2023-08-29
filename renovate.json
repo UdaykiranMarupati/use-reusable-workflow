@@ -9,5 +9,6 @@
       "matchStrings": ["uses: (?<depName>.*?)/.github/workflows/dev-reusable.yml@(?<currentValue>.*?)\\s"],
       "datasourceTemplate": "github-releases"
     }
-  ]
+  ],
+  "enabled": true
 }
