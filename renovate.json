@@ -4,9 +4,23 @@
     "config:base"
   ],
 
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    }, 
+    {
+      "matchManagers": ["github-actions"],
+      "enabled": false
+    },
+    {
+      "paths": [".github/workflows/**"],
+      "enabled": true
+    }
+  ],
+
   "regexManagers": [
     {
-      "customType": "regex",
       "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
       "matchStrings": ["uses: (?<depName>.*?)/.github/workflows/dev-reusable.yml@(?<currentValue>.*?)\\s"],
       "datasourceTemplate": "github-releases"
