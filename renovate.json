@@ -4,7 +4,11 @@
   "extends": [
     "config:base"
   ],
-  "packageRules": [ 
+  "packageRules": [
+    {
+       "matchPackagePatterns": ["*"],
+       "enabled": false
+     },
     {
       "matchManagers": ["github-actions"],
       "enabled": true
